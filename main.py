@@ -5,7 +5,7 @@ import talib
 
 app = FastAPI()
 
-API_KEY = "YOUR_COINMARKETCAP_API_KEY"
+API_KEY = "bf2dc7f3-5fc2-4af7-aa5a-1e8c616e8a0c"
 BASE_URL = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
 HEADERS = {"X-CMC_PRO_API_KEY": API_KEY}
 CRYPTO_LIST = ["BTC", "ETH", "BNB", "XRP", "ADA"]
